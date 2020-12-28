@@ -1,0 +1,21 @@
+{
+  "name": "fun_with_wasm",
+  "version": "0.0.0",
+  "author": "Han <laughinghan@gmail.com> (https://github.com/laughinghan)",
+  "private": true,
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/laughinghan/fun_with_wasm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laughinghan/fun_with_wasm/issues"
+  },
+  "homepage": "https://github.com/laughinghan/fun_with_wasm#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "siphash24": "^1.1.1"
+  }
+}
