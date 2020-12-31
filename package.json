@@ -4,7 +4,7 @@
   "author": "Han <laughinghan@gmail.com> (https://github.com/laughinghan)",
   "private": true,
   "scripts": {
-    "dev": "parcel index.html"
+    "build": "rollup index.js --file bundle.js --format iife --plugin node-resolve,commonjs"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,11 @@
   },
   "homepage": "https://github.com/laughinghan/fun_with_wasm#readme",
   "dependencies": {
-    "parcel-bundler": "^1.12.4",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "benchmark": "^2.1.4",
+    "lodash": "^4.17.20",
+    "rollup": "^2.35.1",
     "siphash24": "^1.1.1"
   }
 }
